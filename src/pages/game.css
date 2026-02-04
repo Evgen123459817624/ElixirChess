@@ -1,13 +1,13 @@
 .board {
   display: grid;
-  grid-template-columns: repeat(8, min(80px, 12.5vw));
-  grid-template-rows: repeat(8, min(80px, 12.5vw));
+  grid-template-columns: repeat(8, min(9vh, 12.5vw));
+  grid-template-rows: repeat(8, min(9vh, 12.5vw));
   border: 1px solid #769656;
 }
 
 .cell {
-  width: min(80px, 12.5vw);
-  height: min(80px, 12.5vw);
+  width: min(9vh, 12.5vw);
+  height: min(9vh, 12.5vw);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,4 +19,13 @@
 
 .black {
   background-color: #769656;
+}
+
+img {
+  width: min(60px, 10.5vw);
+  height: min(60px, 10.5vw);
+}
+
+.selected {
+  background-color: red !important;
 }

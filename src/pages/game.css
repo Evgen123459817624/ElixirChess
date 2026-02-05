@@ -22,10 +22,15 @@
 }
 
 img {
-  width: min(60px, 10.5vw);
-  height: min(60px, 10.5vw);
+  width: min(8vh, 10.5vw);
+  height: min(8vh, 10.5vw);
 }
 
 .selected {
-  background-color: red !important;
+  background-color: rgba(215, 0, 11, 0.7) !important;
+}
+
+.selectedShopPiece {
+  background-color: rgb(82, 195, 233) !important;
+  border-radius: 8px;
 }
